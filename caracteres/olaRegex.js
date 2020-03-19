@@ -1,0 +1,7 @@
+const texto = "casa bonita é a casa amarela da esquina com a Rua ACASALAR."
+
+const regex = /casa/gi
+
+console.log(texto.match(regex))
+console.log(regex.test(texto))
+console.log(texto.match(/a b/))
